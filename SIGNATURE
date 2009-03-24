@@ -15,7 +15,7 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 069ac3b2e309728a6af409bdde1fc605a650d81a MANIFEST
-SHA1 2a1459ee1c5baecca302de9bd127e4f98ada3530 META.yml
+SHA1 9b351eb79dff3fef086e438df0af9a775fd3769e META.yml
 SHA1 7075661373e5088168b73663c7cb66adb4f9f5b8 Makefile.PL
 SHA1 ae018c4565c1277089ca8f1b28f888d95430cb7f inc/Module/Install.pm
 SHA1 4552acdfca8b78f8015d8449e1325616259095f5 inc/Module/Install/Base.pm
@@ -25,14 +25,14 @@ SHA1 9f6beaa2f4749ceb5dd0c9b0c647d0f3289c7b46 inc/Module/Install/Makefile.pm
 SHA1 92a3326557c4f557b12eb2c61d704bcdab2a1c70 inc/Module/Install/Metadata.pm
 SHA1 e9aa83f3e8b16ccfce544a90a57b63b70a497759 inc/Module/Install/Win32.pm
 SHA1 ade2ac0b0246d4d8e28fa46942e53f6925abda46 inc/Module/Install/WriteAll.pm
-SHA1 0dda43394e3a4a093691309e259fc1fdda3831cd lib/MooseX/InstanceTracking.pm
+SHA1 c822348ad2473b8c0705fb58a990e87d53ec112b lib/MooseX/InstanceTracking.pm
 SHA1 2abfdc13dc00b25a7ca486c9eec46929561eef1a t/001-basic.t
 SHA1 923a8817ffd6eed014a00da7e7b364a26a97b0c6 t/002-clone.t
 SHA1 061e14f0157144beb3f72415c35b7028a5ba285b t/003-rebless.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.7 (Darwin)
 
-iD8DBQFJyTqfsxfQtHhyRPoRAhbNAKCSMzIrFDYTr4xkeJ30PaydoSb39ACfcxWD
-vJ2kijJiTx1sb3UVhnUQPRk=
-=6oN2
+iD8DBQFJyTtQsxfQtHhyRPoRAqSSAJ4he8zT+Yzq6Vg8mCfLOFtGSgHYMACfQLHC
+n6lyv6R+2zByB+LBg2XSH/M=
+=jvZo
 -----END PGP SIGNATURE-----
