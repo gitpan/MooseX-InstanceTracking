@@ -1,0 +1,19 @@
+---
+abstract: 'Trait for tracking all instances of a class'
+author:
+  - 'Shawn M Moore, C<sartak@bestpractical.com>'
+distribution_type: module
+generated_by: 'Module::Install version 0.79'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: MooseX-InstanceTracking
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Class::MOP: 0.79
+  Moose: 0.72
+version: undef
