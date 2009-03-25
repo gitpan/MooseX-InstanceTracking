@@ -7,10 +7,10 @@ do {
     package Tracked;
     use Moose;
     use MooseX::InstanceTracking;
+
+    __PACKAGE__->meta->make_immutable;
 };
 
 my $foo = Tracked->new;
-my $bar = Tracked->meta->clone_object($foo);
-
-is_deeply([sort Tracked->meta->instances], [sort $foo, $bar]);
+is_deeply([Tracked->meta->instances], [$foo]);
 

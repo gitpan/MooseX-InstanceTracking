@@ -16,4 +16,4 @@ no_index:
 requires:
   Class::MOP: 0.79
   Moose: 0.72
-version: 0.01
+version: 0.02
