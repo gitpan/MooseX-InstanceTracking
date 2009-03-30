@@ -15,10 +15,10 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 1091283eae3fcc0336e02386f0e48452c43ebaaa .gitignore
-SHA1 c35bb150b215446f81de978a15d660f478843656 Changes
+SHA1 a058646dfbec630fc6cff741aefef3bdd8ae0aa1 Changes
 SHA1 3b30cbb139a26f5b2ed84e9b9c4c4b43f904b295 MANIFEST
-SHA1 5822da4d029bfee7739ddfae19e29bf953504390 META.yml
-SHA1 7075661373e5088168b73663c7cb66adb4f9f5b8 Makefile.PL
+SHA1 8e9577323fb1b6b05e2091c2defe9cf899280375 META.yml
+SHA1 81c1fe838130d26750bf99713e8a1fb934db66c7 Makefile.PL
 SHA1 ae018c4565c1277089ca8f1b28f888d95430cb7f inc/Module/Install.pm
 SHA1 4552acdfca8b78f8015d8449e1325616259095f5 inc/Module/Install/Base.pm
 SHA1 7fb663fff161fb45882b52edd62857bf15359658 inc/Module/Install/Can.pm
@@ -27,7 +27,7 @@ SHA1 9f6beaa2f4749ceb5dd0c9b0c647d0f3289c7b46 inc/Module/Install/Makefile.pm
 SHA1 92a3326557c4f557b12eb2c61d704bcdab2a1c70 inc/Module/Install/Metadata.pm
 SHA1 e9aa83f3e8b16ccfce544a90a57b63b70a497759 inc/Module/Install/Win32.pm
 SHA1 ade2ac0b0246d4d8e28fa46942e53f6925abda46 inc/Module/Install/WriteAll.pm
-SHA1 1fe42a83b93da3eca6a0a3845e79f8df74b46b1d lib/MooseX/InstanceTracking.pm
+SHA1 42ff4e4af5df03d555cb61eae9097fe26183c31c lib/MooseX/InstanceTracking.pm
 SHA1 d786612809189120cc0a00f0ae197fd44cf298f4 lib/MooseX/InstanceTracking/Role/Class.pm
 SHA1 a0137cfe74f0e5ea9329946ba6fef20ffd18bfa9 lib/MooseX/InstanceTracking/Role/Constructor.pm
 SHA1 6672e676dde068a65d9858bb81516b1c5b4d0b47 t/001-basic.t
@@ -38,7 +38,7 @@ SHA1 93770d6ffda454307b82e90b06f7bf6597becfb4 t/005-compose.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.7 (Darwin)
 
-iD8DBQFJyrQHsxfQtHhyRPoRAlNdAJ0bOWI9tM0rD6xCkM5m0Ol1T/+mIgCdEzkU
-GsUiob+t3GWilyPSrFuURJA=
-=rNNb
+iD8DBQFJ0DrgsxfQtHhyRPoRAswFAKCDXgg7NdkLl3jcuVQ82/6NoMMH8gCffz7o
+lPG/XxuiF+gulLt8g8r+mp8=
+=9Cn/
 -----END PGP SIGNATURE-----

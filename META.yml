@@ -16,4 +16,5 @@ no_index:
 requires:
   Class::MOP: 0.79
   Moose: 0.72
-version: 0.02
+  Set::Object::Weak: 0
+version: 0.03
