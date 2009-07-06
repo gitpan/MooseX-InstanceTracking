@@ -2,9 +2,13 @@
 abstract: 'Trait for tracking all instances of a class'
 author:
   - 'Shawn M Moore, C<sartak@bestpractical.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.79'
-license: unknown
+generated_by: 'Module::Install version 0.91'
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -14,7 +18,10 @@ no_index:
     - inc
     - t
 requires:
-  Class::MOP: 0.79
-  Moose: 0.72
+  Moose: 0.83
   Set::Object::Weak: 0
-version: 0.03
+resources:
+  homepage: http://github.com/sartak/moosex-instancetracking/tree
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/sartak/moosex-instancetracking.git
+version: 0.04

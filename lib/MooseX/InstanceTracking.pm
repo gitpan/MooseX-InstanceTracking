@@ -1,11 +1,8 @@
 package MooseX::InstanceTracking;
-use strict;
-use warnings;
-
 use Moose::Exporter;
 use MooseX::InstanceTracking::Role::Class;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 Moose::Exporter->setup_import_methods();
 
@@ -36,22 +33,22 @@ MooseX::InstanceTracking - Trait for tracking all instances of a class
     package Employee;
     use Moose;
     use MooseX::InstanceTracking;
-    
-    my $jerry = Employee->new;
-    my $george = Employee->new;
-    
-    Employee->meta->instances; # $jerry, $george (or $george, $jerry)
-    Employee->meta->get_all_instances; # $jerry, $george (or $george, $jerry)
-    
-    
+
+    my $merrill = Employee->new;
+    my $howard = Employee->new;
+
+    Employee->meta->instances; # $merrill, $howard (or $howard, $merrill)
+    Employee->meta->get_all_instances; # $merrill, $howard (or $howard, $merrill)
+
+
     package Employee::Chef;
     use Moose;
     extends 'Employee';
-    
+
     my $kalin = Employee::Chef->new;
-    
-    Employee->meta->instances; # $jerry, $george (or $george, $jerry)
-    Employee->meta->get_all_instances; # $jerry, $george, $kalin
+
+    Employee->meta->instances; # $merrill, $howard (or $howard, $merrill)
+    Employee->meta->get_all_instances; # $merrill, $howard, $kalin (or $howard,  $merrill, $kalin)
 
 =head1 DESCRIPTION
 
@@ -104,6 +101,13 @@ instance is reblessed.
 =head1 AUTHOR
 
 Shawn M Moore, C<sartak@bestpractical.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2009 Shawn M Moore.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
 
 =cut
 
